@@ -1,8 +1,13 @@
 // In js data can be of different foramats/types 
 // number, string, boolean
-let year = 2026
-let officialEmail = 'albert@eldohub.co.ke4567890#&^%^&'
+let y1ear1 = 2026
+let official$Email = 'albert@eldohub.co.ke4567890#&^%^&'
 let isLoggedIn = true
+const USER_NAME = "kevin"
+// kebab-case-notation 
+// use meaningful names 
+const x = 8000
+let npk_fertiliser = 900
 
 // object, array, date
 
@@ -10,9 +15,10 @@ let isLoggedIn = true
 const eldohub = {
     officalName: "Eldohub Innovations and Technologies Ltd",
     location: "Eastern Avenue, Eldoret",
-    yearOfInception: 2017,
+    YearOfInception: 2017,
     isSchool: true,
-    isUniveristy: false
+    is_univeristy: false,
+    hasSwimmingPool: false,
 }
 
 // an array is a ordered(indexed) list of data
