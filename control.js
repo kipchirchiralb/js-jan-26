@@ -51,3 +51,4 @@ for(let studentNumber = 0; studentNumber < alberts_class_marks.length; studentNu
     }
     console.log("*******************")
 }
+

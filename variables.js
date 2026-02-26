@@ -10,4 +10,9 @@ const interestRate = 15;
 var username = "kevin";
 
 score = 800;
+
+console.log(score * 8000);
+
 // interestRate = 10;
+
+
