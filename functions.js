@@ -54,3 +54,5 @@ console.log(multiplyNumbers(2, 2, 2));
 // write a function that takes a string and returns the number of characters in the string
 
 // write a function that takes an array of numbers as input, uses a for loop to calculate the average of the numbers in the array 
+
+// arrays and string , object
