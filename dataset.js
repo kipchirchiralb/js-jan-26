@@ -706,6 +706,23 @@ const dataset = {
     },
   ],
 };
+
+// write a function to calculate the total sales for the orders
+
+function getTotalSales() {
+  const orders = dataset.orders;
+  let totalSales = 0;
+  for (let index = 0; index < orders.length; index++) {
+    console.log(totalSales);
+    totalSales = totalSales + orders[index].total_kes;
+  }
+  return totalSales;
+}
+
+console.log(getTotalSales());
+
+console.log(dataset.orders.reduce((accum, curr) => accum + curr.total_kes, 0));
+
 // who is the suppolier for moringa seedlings
 // console.log(dataset.seedlings[1].supplier.name);
 
