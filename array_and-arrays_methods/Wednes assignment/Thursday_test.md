@@ -110,7 +110,7 @@ Write a function `buildConfig(userConfig)` that takes an object. Return a new ob
 
 ```javascript
 // Example
-buildConfig({ theme: "dark", retries: 0 });
+buildConfig({ theme: "daaaaark", retries: 0 });
 // Expected: { theme: "dark", retries: 0, themeChars: ["d", "a", "r", "k"] }
 ```
 
